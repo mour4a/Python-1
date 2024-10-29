@@ -1,0 +1,3 @@
+real=float(input('Digite um valor em real:'))
+dollar=real/5.7
+print('R$',real,'equivale a US$',dollar)
