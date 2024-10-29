@@ -1,0 +1,4 @@
+numero=int(input('Digite um número:'))
+Antecessor=numero-1
+Sucessor=numero+1
+print('Antecessor é',Antecessor,'do número',numero,'e o Sucessor é',Sucessor)
