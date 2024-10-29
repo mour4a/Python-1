@@ -1,0 +1,6 @@
+Nome=input('Digite o seu  nome:  \n')
+salario=float(input('Digite o salário:'))
+inss=salario*0.10
+vt=salario*0.06
+salarioliq=salario-(inss+vt)
+print('Nome: ',Nome,'\nSalário bruto:',salario,'\nINSS:',inss,"\nVT:",vt,'\nSalário Líquido:',salarioliq)
