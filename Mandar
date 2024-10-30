@@ -1,0 +1,48 @@
+1º Atividade:
+valor=int(input('Digite um número'))
+real=valor*5.76
+print('o valor em dólar convertido para real',real)
+
+2º Atividade:
+valor=float(input('Digite um número:'))
+real=valor*5.85
+print('O valor em real convertido para BAHT tailandes é:',real)
+
+3º Atividade:
+Nome=input('Digite seu nome:')
+salario=float(input('Digite seu salário:'))
+reajuste=(salario*20)/100
+salarioR=salario+reajuste
+print('Salário antigo')
+
+4º Atividade:
+nome=input('Digite o nome do produto:')
+preço=float(input('Digite o preço do produto:'))
+qtevendido=float(input('Digite a quantidade vendida:'))
+valortotal=preço*qtevendido
+print('Produto:',nome,"\nPreço:",preço,'\nQte:',qtevendido,'\nValor Total:',valortotal)
+
+5º Atividade:
+celsius=float(input('Digite uma temperatura em celsius:'))
+kelvin=celsius+273.15
+print('A temperatura',celsius,'em Kelvin',kelvin)
+
+6º Atividade:
+celsius=float(input('Digite uma temperatura em celsius:'))
+kelvin=celsius+273.15
+fahrenheit=celsius*9/5+32
+print('A temperatura',celsius,'em Kelvin:',kelvin,'\nEm fahrenheit:',fahrenheit)
+
+7º Atividade:
+produto=input('Nome do produto')
+preço=float(input('Qual é o valor do produto?'))
+desconto=float(input('Qual é o desconto?'))
+resultado=preço-desconto
+print('Produto:',produto,'\n Preço:R$',preço,'\n Desconto:R$',resultado)
+
+8º Atividade:
+valorinicial=float(input('Digite o valor:'))
+periodo=float(input('Digite o tempo:'))
+taxa=0.02
+valorfinal=valorinicial*(1+taxa)**periodo
+print('Valor Inicial',valorinicial,'\nPeríodo:',periodo,'\nTaxa: 2%','\nValor Final:',valorfinal)
