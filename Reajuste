@@ -1,0 +1,5 @@
+Nome=input('Digite seu nome:')
+salario=float(input('Digite seu salário:'))
+reajuste=(salario*20)/100
+salarioR=salario+reajuste
+print('Salário antigo')
