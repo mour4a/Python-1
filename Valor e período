@@ -1,0 +1,5 @@
+valorinicial=float(input('Digite o valor:'))
+periodo=float(input('Digite o tempo:'))
+taxa=0.02
+valorfinal=valorinicial*(1+taxa)**periodo
+print('Valor Inicial',valorinicial,'\nPeríodo:',periodo,'\nTaxa: 2%','\nValor Final:',valorfinal)
