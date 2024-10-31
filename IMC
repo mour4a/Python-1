@@ -1,0 +1,9 @@
+nome=input("Digite seu nome:")
+peso=float(input('Digite seu peso:'))
+altura=float(input('Digite sua altura:'))
+imc=peso/altura**2
+print('Nome:',nome,'\nPeso:',peso,'\nAltura:',altura)
+if imc>=18.5 and imc<=24.9:
+    print('IMC:',imc,'\nVocê está no peso ideal!')
+else:
+    print('IMC:',imc,'\nVocê não está com o peso ideal!')
