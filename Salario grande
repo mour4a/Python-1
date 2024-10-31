@@ -1,0 +1,37 @@
+nome=input('Digite seu nome:')
+salariob=float(input('Digite seu salário'))
+
+print('Nome do funcionário:',nome,'\nSalário bruto:R$',salariob)
+if salariob<=1412.00:
+    inss=salariob*0.075
+    print('INSS:R$',inss)
+elif salariob>1412.00 or salariob<=2666.68:
+    inss=salariob*0.09
+    print('INSS:R$',inss)
+elif salario>2666.68 or salariob<=4000.03:
+    inss=salariob*0.12
+    print('INSS:R$',inss)
+elif salariob>4000.03 or salariob<=7786.02:
+    inss=salariob*0.14
+    print('INSS:R$',inss)
+
+if salariob<=2259:
+    IR=salariob*0
+    print('IR: Isento')
+elif salariob>2259.21 or salariob<=2826.65:
+    IR=salariob*0.075
+    print('IR:R$',IR)
+elif salariob>2826.65 or salariob<=3751.05:
+    IR=salariob*0.15
+    print('IR:R$',IR)
+elif salariob>3751.05 or salariob<=4664.68:
+    IR=salariob*0.225
+    print('IR:R$',IR)
+elif salariob>4664.68:
+    IR=salariob*0.275
+    print('IR:R$',IR)
+    
+vt=salariob*0.06
+print('VT:R$',vt)
+salariol=salariob-(inss+vt+IR)
+print("Salário líquido:R$",salariol)
