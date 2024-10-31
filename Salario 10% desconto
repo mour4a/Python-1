@@ -1,0 +1,9 @@
+nome=input('Digite seu nome:')
+salario=float(input('Digite seu salário:'))
+desconto=0.10
+print('Nome:',nome)
+if salario>2000:
+    salariototal=salario-salario*0.10
+    print('Ouve um desconto de 10% no valor=',salariototal)
+else:
+    print('Desconto não aplicável')
