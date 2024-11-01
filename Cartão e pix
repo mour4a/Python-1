@@ -1,0 +1,21 @@
+nome=input('Digite o nome do produto:')
+preço=float(input('Digite o preço:'))
+qt=int(input('Digite a quantidade:'))
+pagamento=input('Digite a forma de pagamento:')
+
+print('Nome do produto:',nome)
+print('Preço:',preço)
+print('Quantidade:',qt)
+if pagamento=='pix':
+    valor=qt*preço-preço*0.10
+    print('Valor total:',valor)
+if pagamento=='cartao':
+    cartao=int(input('Quantas vezes no cartão:'))
+    
+if cartao==1:
+    cartao1=qt*preço+preço*0
+    print('Valor total:',cartao)
+elif cartao>=2:
+    cartao2=(qt*preço)
+    cartao3=cartao2+cartao2*0.05
+    print('Valor total:',cartao3)
