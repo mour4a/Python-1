@@ -1,0 +1,12 @@
+logine=input('Crie um login:')
+senhae=int(input('Crie uma senha:'))
+login=input('Digite seu nome de usuário:')
+senha=int(input('Digite sua senha:'))
+if login==logine and senha==senhae:
+    print('Bem vindo,',logine)
+    base=float(input('Digite a base'))
+    altura=float(input('Digite a altura'))
+    area=(base*altura)/2
+    print('A área do triângulo é =',area)
+else:
+    print('Dados inválidos!')
