@@ -1,0 +1,4 @@
+base=int(input('Digite um número para base:'))
+potencia=int(input('Digite um número para potência:'))
+pot=base**potencia
+print(pot)
