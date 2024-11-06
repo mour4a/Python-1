@@ -1,0 +1,10 @@
+nome1=input('Digite o primeiro nome:')
+idade1=int(input('Digite a idade:'))
+nome2=input('Digite o segundo nome:')
+idade2=int(input('Digite a idade:'))
+if idade1>idade2:
+    print(nome1,'é mais velho com',idade1,'anos')
+elif idade1<idade2:
+    print(nome2,'é mais velho com',idade2,'anos')
+else:
+    print(nome1,'e',nome2,'têm a mesma idade!')
